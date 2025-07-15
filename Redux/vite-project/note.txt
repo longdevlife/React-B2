@@ -1,0 +1,12 @@
+------Setup redux----------
+1. Tạo slice => initialState 
+2. Tạo store ở main.jsx
+3. Truyền store vào Provider
+
+
+----- Lấy dữ liệu từ redux về ( Lấy state trong slice về) -------
+useSelector
+
+----- Đẩy data lên redux (Cập nhật giá trị state) ------
+1.Tạo action trong slice (action là function được tạo ra để update state trên redux , sau khi state trên redux được update thì các component đang useSelector tới state đó sẽ được re-render)
+2. dùng useDispatch để gọi action đó
